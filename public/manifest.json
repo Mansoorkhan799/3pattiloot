@@ -1,0 +1,24 @@
+{
+  "name": "3 Patti Loot - Play & Earn Real Money",
+  "short_name": "3 Patti Loot",
+  "description": "Download 3 Patti Loot APK - Pakistan's #1 Online Card Gaming App. Play Teen Patti, Rummy, Andar Bahar and 28+ games. Earn real money with instant withdrawals.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#00FF88",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/3 Patti Loot.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment", "finance"],
+  "lang": "en-PK",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
+

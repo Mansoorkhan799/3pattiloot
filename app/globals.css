@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+  
+  body {
+    @apply bg-gaming-darker text-white font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-gaming font-bold;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gaming-dark;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gaming-accent rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gaming-purple;
+  }
+}
+
+@layer components {
+  /* Gradient text effect */
+  .gradient-text {
+    @apply bg-gradient-to-r from-gaming-accent to-gaming-purple bg-clip-text text-transparent;
+  }
+
+  /* Gaming card hover effect */
+  .gaming-card {
+    @apply relative overflow-hidden rounded-lg transition-all duration-300;
+  }
+
+  .gaming-card::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-gaming-accent/0 via-gaming-accent/10 to-gaming-accent/0;
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+  }
+
+  .gaming-card:hover::before {
+    transform: translateX(100%);
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply bg-gaming-accent text-gaming-dark font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:bg-gaming-purple hover:text-white hover:shadow-lg hover:shadow-gaming-accent/50 hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-white/10 text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 hover:bg-white/20 backdrop-blur-sm border border-white/20;
+  }
+
+  /* Loading animation */
+  .loading-dots span {
+    animation: blink 1.4s infinite;
+  }
+
+  .loading-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .loading-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  /* WordPress content styling */
+  .wp-content {
+    @apply prose prose-invert max-w-none;
+  }
+
+  .wp-content h1, .wp-content h2, .wp-content h3 {
+    @apply font-gaming mb-4 mt-8;
+  }
+
+  .wp-content h1 {
+    @apply text-4xl;
+  }
+
+  .wp-content h2 {
+    @apply text-3xl;
+  }
+
+  .wp-content h3 {
+    @apply text-2xl;
+  }
+
+  .wp-content p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  .wp-content img {
+    @apply rounded-lg my-6 w-full h-auto;
+  }
+
+  .wp-content a {
+    @apply text-gaming-accent hover:text-gaming-purple transition-colors underline;
+  }
+
+  .wp-content ul, .wp-content ol {
+    @apply ml-6 mb-4;
+  }
+
+  .wp-content li {
+    @apply mb-2;
+  }
+
+  .wp-content blockquote {
+    @apply border-l-4 border-gaming-accent pl-4 italic my-6 bg-white/5 py-4 rounded-r-lg;
+  }
+
+  .wp-content pre {
+    @apply bg-gaming-dark p-4 rounded-lg overflow-x-auto my-6;
+  }
+
+  .wp-content code {
+    @apply bg-gaming-dark px-2 py-1 rounded text-gaming-accent text-sm;
+  }
+
+  .wp-content table {
+    @apply w-full border-collapse my-6;
+  }
+
+  .wp-content th, .wp-content td {
+    @apply border border-white/20 px-4 py-2;
+  }
+
+  .wp-content th {
+    @apply bg-white/10 font-bold;
+  }
+}
+
+@layer utilities {
+  /* Glass morphism */
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  /* Neon glow effect */
+  .neon-glow {
+    @apply shadow-lg shadow-gaming-accent/50;
+  }
+
+  /* Text gradient animation */
+  .animated-gradient {
+    background: linear-gradient(
+      90deg,
+      #00ff88,
+      #8b5cf6,
+      #00ff88
+    );
+    background-size: 200% 100%;
+    animation: gradient 3s ease infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@keyframes blink {
+  0%, 80%, 100% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Performance optimizations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

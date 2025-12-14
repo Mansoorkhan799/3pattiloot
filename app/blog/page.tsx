@@ -1,0 +1,121 @@
+import { generateSEO } from "@/lib/seo";
+import Link from "next/link";
+
+export const metadata = generateSEO({
+  title: 'Blog - Latest Updates & News',
+  description: 'Read the latest updates, tips, tricks, and news about 3 Patti Loot game.',
+  url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog`,
+});
+
+// Static blog posts
+const blogPosts = [
+  {
+    id: 1,
+    title: "How to Signup and Login in 3 Patti Loot",
+    slug: "blog/signup-login",
+    excerpt: "Learn how to create your account and login to 3 Patti Loot app. Step-by-step guide with email binding and account recovery.",
+    icon: "👤",
+    category: "Getting Started",
+    date: "December 15, 2024"
+  },
+  {
+    id: 2,
+    title: "How to Deposit and Withdraw Money",
+    slug: "blog/deposit-withdraw",
+    excerpt: "Complete guide on depositing money using JazzCash/EasyPaisa and withdrawing your winnings instantly.",
+    icon: "💰",
+    category: "Payments",
+    date: "December 15, 2024"
+  },
+  {
+    id: 3,
+    title: "Best Tips and Tricks to Win Big",
+    slug: "blog/tips-tricks",
+    excerpt: "Master the games with our expert tips and tricks. Learn strategies to maximize your winnings in 3 Patti Loot.",
+    icon: "🎯",
+    category: "Strategy",
+    date: "December 15, 2024"
+  },
+  {
+    id: 4,
+    title: "Best 3 Patti Games to Play",
+    slug: "blog/best-games",
+    excerpt: "Discover the best 3 Patti games including 3 Patti Blue, Card Rummy, 3 Patti Lucky, 3 Patti Sky, and 3 Patti Vegas.",
+    icon: "🎴",
+    category: "Game Reviews",
+    date: "December 15, 2024"
+  }
+];
+
+export default function BlogPage() {
+  return (
+    <div className="min-h-screen">
+      {/* Header */}
+      <section className="py-16 px-4 bg-gradient-to-r from-gaming-accent/10 to-gaming-purple/10">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-5xl font-gaming font-bold mb-4 gradient-text">
+            Blog & Updates
+          </h1>
+          <p className="text-xl text-gray-300 max-w-3xl">
+            Stay updated with the latest news, tips, tricks, and updates about 3 Patti Loot.
+          </p>
+        </div>
+      </section>
+
+      {/* Posts Grid */}
+      <section className="py-16 px-4 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {blogPosts.map((post) => (
+            <Link
+              key={post.id}
+              href={`/${post.slug}`}
+              className="gaming-card group bg-gaming-dark rounded-lg overflow-hidden hover:border-gaming-accent transition-all"
+            >
+              <div className="relative h-[200px] bg-gradient-to-br from-gaming-accent/20 to-gaming-purple/20 flex items-center justify-center">
+                <span className="text-8xl">{post.icon}</span>
+              </div>
+
+              <div className="p-6">
+                <div className="mb-3">
+                  <span className="text-xs font-bold text-gaming-accent uppercase tracking-wider">
+                    {post.category}
+                  </span>
+                </div>
+                
+                <h3 className="text-xl font-gaming font-bold mb-3 group-hover:text-gaming-accent transition-colors">
+                  {post.title}
+                </h3>
+                
+                <p className="text-gray-400 text-sm mb-4 line-clamp-3">
+                  {post.excerpt}
+                </p>
+
+                <div className="flex items-center justify-between text-sm text-gray-500">
+                  <span>3 Patti Loot</span>
+                  <span>{post.date}</span>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        {/* Call to Action */}
+        <div className="mt-16 text-center glass rounded-lg p-8">
+          <h2 className="text-3xl font-gaming font-bold mb-4 gradient-text">
+            Ready to Start Playing?
+          </h2>
+          <p className="text-gray-300 mb-6">
+            Download 3 Patti Loot now and get PKR 5 welcome bonus!
+          </p>
+          <a
+            href="https://3pattilootpkk1.com?from_gameid=5208127&channelCode=200000"
+            className="btn-primary inline-block"
+          >
+            📱 Download APK Now
+          </a>
+        </div>
+      </section>
+    </div>
+  );
+}
+
