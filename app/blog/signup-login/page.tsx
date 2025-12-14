@@ -1,4 +1,4 @@
-import { generateSEO } from "@/lib/seo";
+import { generateSEO, generateArticleSchema, generateBreadcrumbSchema } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
@@ -16,8 +16,39 @@ export const metadata = generateSEO({
 });
 
 export default function SignupLoginGuidePage() {
+  // Breadcrumb Schema
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}` },
+    { name: 'Blog', url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}/blog` },
+    { name: 'Signup & Login Guide', url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}/blog/signup-login` },
+  ]);
+
+  // Article Schema
+  const articleSchema = generateArticleSchema({
+    title: '3 Patti Loot Signup & Login Guide | Create Account in 2 Minutes',
+    description: 'Complete guide to signup and login in 3 Patti Loot APK.',
+    image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}/3 Patti Loot.webp`,
+    datePublished: '2024-12-15',
+    dateModified: '2024-12-15',
+    author: {
+      name: '3 Patti Loot Team',
+      url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}/about`,
+    },
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}/blog/signup-login`,
+  });
+
   return (
     <div className="min-h-screen">
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      
       {/* Header */}
       <section className="py-16 px-4 bg-gradient-to-r from-gaming-accent/10 to-gaming-purple/10">
         <div className="max-w-7xl mx-auto">
