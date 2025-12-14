@@ -16,6 +16,7 @@ interface SEOProps {
   modifiedTime?: string;
   author?: string;
   tags?: string[];
+  keywords?: string[];
   noindex?: boolean;
 }
 
@@ -32,6 +33,7 @@ export function generateSEO({
   modifiedTime,
   author,
   tags,
+  keywords,
   noindex = false,
 }: SEOProps): Metadata {
   const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
@@ -41,7 +43,7 @@ export function generateSEO({
     description,
     applicationName: SITE_NAME,
     generator: 'Next.js',
-    keywords: tags || [
+    keywords: keywords || tags || [
       '3 patti loot',
       '3 patti loot apk',
       'teen patti',
