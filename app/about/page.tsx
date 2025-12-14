@@ -2,9 +2,15 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'About Us - 3 Patti Loot',
-  description: 'Learn more about 3 Patti Loot - the ultimate Teen Patti gaming experience. Our mission, vision, and commitment to fair play.',
+  title: 'About 3 Patti Loot | Pakistan\'s #1 Online Gaming Platform',
+  description: 'Learn about 3 Patti Loot - Pakistan\'s most trusted online card gaming app. 28+ games, instant withdrawals, 24/7 support. Discover our mission to provide safe & exciting gaming.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/about`,
+  keywords: [
+    'about 3 patti loot',
+    '3 patti loot company',
+    'teen patti loot info',
+    'trusted gaming app pakistan',
+  ],
 });
 
 export default function AboutPage() {

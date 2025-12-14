@@ -2,9 +2,14 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'Terms of Service - 3 Patti Loot',
-  description: 'Read our terms of service to understand the rules and guidelines for using 3 Patti Loot gaming platform.',
+  title: '3 Patti Loot Terms of Service | User Agreement & Rules',
+  description: 'Read 3 Patti Loot terms of service. Understand user agreement, gaming rules, payment terms, account policies & conditions for using our platform.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/terms`,
+  keywords: [
+    '3 patti loot terms',
+    'terms of service',
+    'user agreement',
+  ],
 });
 
 export default function TermsPage() {

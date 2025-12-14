@@ -2,9 +2,16 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'Blog - Latest Updates & News',
-  description: 'Read the latest updates, tips, tricks, and news about 3 Patti Loot game.',
+  title: '3 Patti Loot Blog | Guides, Tips & Latest Updates',
+  description: 'Read expert guides on 3 Patti Loot: signup tutorials, deposit/withdrawal guides, winning tips & tricks, game comparisons. Stay updated with latest features and bonuses.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog`,
+  keywords: [
+    '3 patti loot blog',
+    '3 patti loot guides',
+    'teen patti tutorials',
+    '3 patti loot news',
+    'how to play 3 patti loot',
+  ],
 });
 
 // Static blog posts

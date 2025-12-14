@@ -1,9 +1,14 @@
 import { generateSEO } from "@/lib/seo";
 
 export const metadata = generateSEO({
-  title: 'Disclaimer - 3 Patti Loot',
-  description: 'Important legal disclaimers and terms regarding the use of 3 Patti Loot gaming platform.',
+  title: '3 Patti Loot Disclaimer | Important Legal Information',
+  description: '3 Patti Loot disclaimer: Important legal information about online gaming, age restrictions, responsible gaming & terms of use. Read before playing.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/disclaimer`,
+  keywords: [
+    '3 patti loot disclaimer',
+    'legal information',
+    'responsible gaming',
+  ],
 });
 
 export default function DisclaimerPage() {

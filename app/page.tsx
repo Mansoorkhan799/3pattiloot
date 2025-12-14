@@ -1,5 +1,23 @@
 import Hero from "@/components/Hero";
 import Link from "next/link";
+import { generateSEO } from "@/lib/seo";
+
+export const metadata = generateSEO({
+  title: "3 Patti Loot APK Pakistan | Download Official for Android",
+  description: "Download 3 Patti Loot APK official for Android. Play Teen Patti, Rummy, Andar Bahar & 28+ games. Get PKR 5 welcome bonus. Instant withdrawals via JazzCash & EasyPaisa.",
+  keywords: [
+    "3 patti loot apk",
+    "3 patti loot pakistan",
+    "teen patti loot apk download",
+    "3 patti loot official",
+    "download 3 patti loot android",
+    "teen patti game pakistan",
+    "online earning app pakistan",
+    "jazzcash earning app",
+    "easypaisa game app",
+    "real money earning app pakistan",
+  ],
+});
 
 export default function HomePage() {
 

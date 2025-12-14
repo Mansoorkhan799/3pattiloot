@@ -2,9 +2,13 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'DMCA Policy - 3 Patti Loot',
-  description: 'Digital Millennium Copyright Act (DMCA) policy and copyright infringement reporting procedure for 3 Patti Loot.',
+  title: '3 Patti Loot DMCA Policy | Copyright Information',
+  description: '3 Patti Loot DMCA policy and copyright information. Learn about intellectual property rights, content usage & how to report copyright infringement.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/dmca`,
+  keywords: [
+    '3 patti loot dmca',
+    'copyright policy',
+  ],
 });
 
 export default function DMCAPage() {

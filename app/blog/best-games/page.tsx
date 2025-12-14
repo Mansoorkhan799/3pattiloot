@@ -2,9 +2,17 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'Best 3 Patti Games - Blue, Rummy, Lucky, Sky, Vegas',
-  description: 'Discover the best 3 Patti games: 3 Patti Blue, Card Rummy, 3 Patti Lucky, 3 Patti Sky, and 3 Patti Vegas. Complete reviews and comparisons.',
+  title: 'Best 3 Patti Games 2024 | Compare Blue, Lucky, Sky, Vegas & Loot',
+  description: 'Complete comparison of best 3 Patti games in Pakistan: 3 Patti Loot, Blue, Lucky, Sky & Vegas. See ratings, features, bonuses, withdrawal times & which is best for earning.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/best-games`,
+  keywords: [
+    'best 3 patti game',
+    '3 patti blue vs loot',
+    '3 patti lucky app',
+    '3 patti sky download',
+    '3 patti vegas pakistan',
+    'card rummy game',
+  ],
 });
 
 export default function BestGamesPage() {

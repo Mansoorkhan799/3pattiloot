@@ -2,9 +2,17 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'Best Tips and Tricks to Win Big in 3 Patti Loot',
-  description: 'Master 3 Patti Loot with our expert tips and tricks. Learn proven strategies to maximize your winnings and become a pro player.',
+  title: '3 Patti Loot Tips & Tricks 2024 | Win Big with These Strategies',
+  description: 'Master 3 Patti Loot with expert tips and tricks. Learn winning strategies for Teen Patti, Rummy, Andar Bahar & Dragon Tiger. Bankroll management, game-specific tactics & pro tips.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/tips-tricks`,
+  keywords: [
+    '3 patti loot tips',
+    '3 patti loot tricks',
+    'how to win in 3 patti loot',
+    'teen patti winning strategy',
+    'rummy tips pakistan',
+    'andar bahar strategy',
+  ],
 });
 
 export default function TipsTricksPage() {

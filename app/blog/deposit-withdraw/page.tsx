@@ -2,9 +2,17 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'How to Deposit and Withdraw Money in 3 Patti Loot - Complete Guide',
-  description: 'Learn how to deposit and withdraw money in 3 Patti Loot using EasyPaisa and JazzCash. Step-by-step guide with troubleshooting tips.',
+  title: '3 Patti Loot Deposit & Withdraw Guide | JazzCash & EasyPaisa',
+  description: 'Learn how to deposit and withdraw money in 3 Patti Loot using JazzCash & EasyPaisa. Instant withdrawals, minimum PKR 100. Complete guide with screenshots and troubleshooting tips.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/deposit-withdraw`,
+  keywords: [
+    '3 patti loot withdrawal',
+    '3 patti loot deposit',
+    'jazzcash 3 patti loot',
+    'easypaisa 3 patti loot',
+    'how to withdraw from 3 patti loot',
+    'instant withdrawal pakistan',
+  ],
 });
 
 export default function DepositWithdrawGuidePage() {

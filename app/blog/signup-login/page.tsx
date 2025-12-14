@@ -2,9 +2,17 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'How to Signup and Login in 3 Patti Loot - Complete Guide',
-  description: 'Step-by-step guide on how to create an account, signup, and login to 3 Patti Loot. Learn about email binding, account recovery, and security tips.',
+  title: '3 Patti Loot Signup & Login Guide | Create Account in 2 Minutes',
+  description: 'Complete guide to signup and login in 3 Patti Loot APK. Learn how to create account, bind email, recover password, and secure your gaming account. Easy step-by-step tutorial.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/signup-login`,
+  keywords: [
+    '3 patti loot signup',
+    '3 patti loot login',
+    'teen patti loot account',
+    'how to create account in 3 patti loot',
+    '3 patti loot registration',
+    'bind email 3 patti loot',
+  ],
 });
 
 export default function SignupLoginGuidePage() {
