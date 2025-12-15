@@ -3,7 +3,7 @@ import Link from "next/link";
 import { generateSEO } from "@/lib/seo";
 
 export const metadata = generateSEO({
-  title: "3 Patti Loot APK Pakistan | Download Official for Android",
+  title: "3 Patti Loot APK Pakistan | Free Download for Android",
   description: "Download 3 Patti Loot APK official for Android. Play Teen Patti, Rummy, Andar Bahar & 28+ games. Get PKR 5 welcome bonus. Instant withdrawals via JazzCash & EasyPaisa.",
   keywords: [
     "3 patti loot apk",
