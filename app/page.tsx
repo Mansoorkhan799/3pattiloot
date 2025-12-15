@@ -214,8 +214,8 @@ export default function HomePage() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
-          <div>
-            <img src="/3patti-loot.webp" alt="3 Patti Loot App Screenshot" className="rounded-lg shadow-2xl" />
+          <div className="max-w-sm mx-auto md:max-w-none">
+            <img src="/3patti-loot.webp" alt="3 Patti Loot App Screenshot" className="rounded-lg shadow-2xl w-full" />
           </div>
           <div className="glass rounded-lg p-8">
             <h3 className="text-2xl font-gaming font-bold mb-4 gradient-text">Download Now & Get PKR 5 Free!</h3>
@@ -435,7 +435,7 @@ export default function HomePage() {
           </div>
 
           <div className="mb-12">
-            <img src="/refer-and-earn.webp" alt="Refer and Earn 3% Commission" className="rounded-lg shadow-2xl mx-auto max-w-2xl" />
+            <img src="/refer-and-earn.webp" alt="Refer and Earn 3% Commission" className="rounded-lg shadow-2xl mx-auto w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl" />
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
