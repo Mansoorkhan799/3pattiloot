@@ -21,6 +21,22 @@ const nextConfig = {
   compress: true,
   // Power by header
   poweredByHeader: false,
+  // WWW to non-WWW redirect
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.3pattilootapk.com.pk',
+          },
+        ],
+        destination: 'https://3pattilootapk.com.pk/:path*',
+        permanent: true,
+      },
+    ]
+  },
   // Generate sitemap during build
   async headers() {
     return [
