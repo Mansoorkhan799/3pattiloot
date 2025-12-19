@@ -24,12 +24,6 @@ const nextConfig = {
   compress: true,
   // Power by header
   poweredByHeader: false,
-  // Optimize output for better crawlability
-  output: 'standalone',
-  // Enable experimental optimizations
-  experimental: {
-    optimizeCss: true,
-  },
   // Generate sitemap during build
   async headers() {
     return [
