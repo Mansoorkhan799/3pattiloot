@@ -12,6 +12,9 @@ const nextConfig = {
       },
     ],
     formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 60,
   },
   // Enable React strict mode for better development experience
   reactStrictMode: true,
@@ -21,6 +24,12 @@ const nextConfig = {
   compress: true,
   // Power by header
   poweredByHeader: false,
+  // Optimize output for better crawlability
+  output: 'standalone',
+  // Enable experimental optimizations
+  experimental: {
+    optimizeCss: true,
+  },
   // Generate sitemap during build
   async headers() {
     return [
@@ -51,6 +60,25 @@ const nextConfig = {
             key: 'Referrer-Policy',
             value: 'origin-when-cross-origin'
           }
+        ],
+      },
+      // Cache static assets aggressively for better crawl efficiency
+      {
+        source: '/(.*)\\.(jpg|jpeg|png|webp|gif|svg|ico)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/(.*)\\.(js|css)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
         ],
       },
     ]
