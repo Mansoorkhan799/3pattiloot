@@ -42,7 +42,7 @@ export default function TipsTricksPage() {
           {/* Introduction */}
           <div className="glass rounded-lg p-8 mb-8">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Winning big in 3 Patti Loot requires more than just luck. With the right strategies and smart gameplay, 
+              Winning big in <Link href="/" className="text-gaming-accent hover:text-gaming-purple underline">3 Patti Loot</Link> requires more than just luck. With the right strategies and smart gameplay, 
               you can significantly increase your chances of winning. Here are the best tips and tricks used by 
               professional players to dominate the games.
             </p>

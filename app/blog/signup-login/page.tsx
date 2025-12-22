@@ -94,7 +94,7 @@ export default function SignupLoginGuidePage() {
             <div className="space-y-6">
               <div className="border-l-4 border-gaming-accent pl-6">
                 <h3 className="text-xl font-bold mb-3 text-gaming-accent">Step 1: Download and Install the App</h3>
-                <p className="text-gray-300">First, download the 3 Patti Loot APK from our official website. Enable "Install from Unknown Sources" in your device settings to complete the installation.</p>
+                <p className="text-gray-300">First, download the <Link href="/" className="text-gaming-accent hover:text-gaming-purple underline">3 Patti Loot</Link> APK from our official website. Enable "Install from Unknown Sources" in your device settings to complete the installation.</p>
               </div>
 
               <div className="border-l-4 border-gaming-accent pl-6">

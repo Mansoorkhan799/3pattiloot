@@ -64,7 +64,7 @@ export default function BestGamesPage() {
 
               <div className="space-y-4 text-gray-300">
                 <p className="text-lg">
-                  <strong>3 Patti Loot</strong> stands out as the most comprehensive and reliable gaming 
+                  <strong><Link href="/" className="text-gaming-accent hover:text-gaming-purple underline">3 Patti Loot</Link></strong> stands out as the most comprehensive and reliable gaming 
                   platform in Pakistan. With 28+ games, instant withdrawals, and excellent customer support, 
                   it's the perfect choice for both beginners and experienced players.
                 </p>

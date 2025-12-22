@@ -47,7 +47,7 @@ export default function DepositWithdrawGuidePage() {
           {/* Payment Methods */}
           <div className="glass rounded-lg p-8">
             <h2 className="text-3xl font-gaming font-bold mb-6 gradient-text">Supported Payment Methods</h2>
-            <p className="text-gray-300 mb-6">3 Patti Loot supports the most popular payment methods in Pakistan:</p>
+            <p className="text-gray-300 mb-6"><Link href="/" className="text-gaming-accent hover:text-gaming-purple underline">3 Patti Loot</Link> supports the most popular payment methods in Pakistan:</p>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-gaming-accent/10 p-6 rounded-lg text-center border border-gaming-accent/30">
                 <span className="text-4xl mb-3 block">💳</span>
