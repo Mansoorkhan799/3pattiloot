@@ -18,24 +18,7 @@ const rajdhani = Rajdhani({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  ...generateSEO({}),
-  icons: {
-    icon: [
-      { url: '/icon', type: 'image/png', sizes: '32x32' },
-      { url: '/3 Patti Loot.webp', type: 'image/webp', sizes: '512x512' },
-    ],
-    apple: [
-      { url: '/apple-icon', type: 'image/png', sizes: '180x180' },
-    ],
-    other: [
-      {
-        rel: 'mask-icon',
-        url: '/3 Patti Loot.webp',
-      },
-    ],
-  },
-};
+export const metadata: Metadata = generateSEO({});
 
 export default function RootLayout({
   children,
