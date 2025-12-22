@@ -28,8 +28,8 @@ export default function SignupLoginGuidePage() {
     title: '3 Patti Loot Signup & Login Guide | Create Account in 2 Minutes',
     description: 'Complete guide to signup and login in 3 Patti Loot APK.',
     image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}/3 Patti Loot.webp`,
-    datePublished: '2024-12-15',
-    dateModified: '2024-12-15',
+    datePublished: '2026-12-15',
+    dateModified: '2026-12-15',
     author: {
       name: '3 Patti Loot Team',
       url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk'}/about`,

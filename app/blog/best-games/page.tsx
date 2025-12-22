@@ -2,7 +2,7 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: 'Best 3 Patti Games 2024 | Compare Blue, Lucky, Sky, Vegas & Loot',
+  title: 'Best 3 Patti Games 2026 | Compare Blue, Lucky, Sky, Vegas & Loot',
   description: 'Complete comparison of best 3 Patti games in Pakistan: 3 Patti Loot, Blue, Lucky, Sky & Vegas. See ratings, features, bonuses, withdrawal times & which is best for earning.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/best-games`,
   keywords: [

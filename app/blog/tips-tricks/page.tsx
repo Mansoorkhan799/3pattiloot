@@ -2,7 +2,7 @@ import { generateSEO } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = generateSEO({
-  title: '3 Patti Loot Tips & Tricks 2024 | Win Big with These Strategies',
+  title: '3 Patti Loot Tips & Tricks 2026 | Win Big with These Strategies',
   description: 'Master 3 Patti Loot with expert tips and tricks. Learn winning strategies for Teen Patti, Rummy, Andar Bahar & Dragon Tiger. Bankroll management, game-specific tactics & pro tips.',
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/tips-tricks`,
   keywords: [

@@ -23,7 +23,7 @@ const blogPosts = [
     excerpt: "Learn how to create your account and login to 3 Patti Loot app. Step-by-step guide with email binding and account recovery.",
     icon: "👤",
     category: "Getting Started",
-    date: "December 15, 2024"
+    date: "December 15, 2026"
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const blogPosts = [
     excerpt: "Complete guide on depositing money using JazzCash/EasyPaisa and withdrawing your winnings instantly.",
     icon: "💰",
     category: "Payments",
-    date: "December 15, 2024"
+    date: "December 15, 2026"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const blogPosts = [
     excerpt: "Master the games with our expert tips and tricks. Learn strategies to maximize your winnings in 3 Patti Loot.",
     icon: "🎯",
     category: "Strategy",
-    date: "December 15, 2024"
+    date: "December 15, 2026"
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const blogPosts = [
     excerpt: "Discover the best 3 Patti games including 3 Patti Blue, Card Rummy, 3 Patti Lucky, 3 Patti Sky, and 3 Patti Vegas.",
     icon: "🎴",
     category: "Game Reviews",
-    date: "December 15, 2024"
+    date: "December 15, 2026"
   }
 ];
 
