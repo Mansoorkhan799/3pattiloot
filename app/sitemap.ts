@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootpk.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date();
@@ -57,18 +57,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Blog posts
+  // Blog posts with specific dates for better indexing
   const blogPosts = [
-    'signup-login',
-    'deposit-withdraw',
-    'tips-tricks',
-    'best-games',
+    { slug: 'signup-login', date: '2024-12-01' },
+    { slug: 'deposit-withdraw', date: '2024-12-05' },
+    { slug: 'tips-tricks', date: '2024-12-10' },
+    { slug: 'best-games', date: '2024-12-15' },
   ];
 
-  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((slug) => ({
-    url: `${SITE_URL}/blog/${slug}`,
-    lastModified: currentDate,
-    changeFrequency: 'weekly',
+  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${SITE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
 
