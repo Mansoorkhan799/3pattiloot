@@ -211,6 +211,9 @@ export default function HomePage() {
           <p className="text-xl text-gray-300">
             This app is easy to install and use on any Android device
           </p>
+          <p className="text-gray-400 mt-3">
+            📖 Need help? Read our <Link href="/blog/signup-login" className="text-gaming-accent hover:text-gaming-purple underline">complete signup and login guide</Link>
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
@@ -486,14 +489,17 @@ export default function HomePage() {
 
       {/* Tips and Tricks */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
-            Tips and Tricks to Win
-          </h2>
-          <p className="text-xl text-gray-300">
-            Follow these tips to maximize your earnings and enjoyment
-          </p>
-        </div>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
+              Tips and Tricks to Win
+            </h2>
+            <p className="text-xl text-gray-300">
+              Follow these tips to maximize your earnings and enjoyment
+            </p>
+            <p className="text-gray-400 mt-3">
+              🎯 Want expert strategies? Read our <Link href="/blog/tips-tricks" className="text-gaming-accent hover:text-gaming-purple underline">advanced tips and tricks guide</Link>
+            </p>
+          </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="glass rounded-lg p-6">

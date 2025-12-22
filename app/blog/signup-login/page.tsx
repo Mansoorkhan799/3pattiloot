@@ -276,17 +276,22 @@ export default function SignupLoginGuidePage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-gaming font-bold mb-8 text-center gradient-text">Related Guides</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/guides/deposit-withdraw" className="glass rounded-lg p-6 hover:bg-gaming-accent/10 transition-all">
+            <Link href="/" className="glass rounded-lg p-6 hover:bg-gaming-accent/10 transition-all">
+              <span className="text-4xl mb-4 block">🏠</span>
+              <h3 className="text-xl font-gaming font-bold mb-2">Back to Home</h3>
+              <p className="text-gray-400 text-sm">Download 3 Patti Loot APK and start earning</p>
+            </Link>
+            <Link href="/blog/deposit-withdraw" className="glass rounded-lg p-6 hover:bg-gaming-accent/10 transition-all">
               <span className="text-4xl mb-4 block">💰</span>
               <h3 className="text-xl font-gaming font-bold mb-2">Deposit & Withdraw Guide</h3>
               <p className="text-gray-400 text-sm">Learn how to add and withdraw money safely</p>
             </Link>
-            <Link href="/guides/tips-tricks" className="glass rounded-lg p-6 hover:bg-gaming-accent/10 transition-all">
+            <Link href="/blog/tips-tricks" className="glass rounded-lg p-6 hover:bg-gaming-accent/10 transition-all">
               <span className="text-4xl mb-4 block">🎯</span>
               <h3 className="text-xl font-gaming font-bold mb-2">Tips to Win Big</h3>
               <p className="text-gray-400 text-sm">Expert strategies to maximize your winnings</p>
             </Link>
-            <Link href="/guides/best-games" className="glass rounded-lg p-6 hover:bg-gaming-accent/10 transition-all">
+            <Link href="/blog/best-games" className="glass rounded-lg p-6 hover:bg-gaming-accent/10 transition-all">
               <span className="text-4xl mb-4 block">🎴</span>
               <h3 className="text-xl font-gaming font-bold mb-2">Best 3 Patti Games</h3>
               <p className="text-gray-400 text-sm">Compare top 3 Patti gaming platforms</p>
