@@ -1,7 +1,7 @@
 // SEO Utilities and Metadata Generators
 import { Metadata } from 'next';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootpk.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk';
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || '3 Patti Loot';
 const SITE_DESCRIPTION = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 
   "Download 3 Patti Loot APK - Pakistan's #1 Online Card Gaming App. Play Teen Patti, Rummy, Andar Bahar, and 28+ games. Earn real money with instant withdrawals via JazzCash & EasyPaisa. Get PKR 5 welcome bonus!";
