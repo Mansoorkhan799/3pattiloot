@@ -8,11 +8,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: false,
   },
-  // Experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['@/components', '@/lib'],
-  },
   images: {
     remotePatterns: [
       {
