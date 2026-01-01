@@ -23,8 +23,8 @@ export default function Footer() {
               <h3 className="text-xl font-gaming font-bold">3 Patti Loot</h3>
             </div>
             <p className="text-gray-400 mb-4">
-              Experience the thrill of 3 Patti! Play exciting card games, win big rewards, 
-              and enjoy the best Teen Patti gaming experience. Play, Win & Enjoy!
+              Experience the thrill of 3 Patti Loot! Play exciting card games with attractive design and fun background music. 
+              Win big rewards and enjoy the best Teen Patti gaming experience. Play, Win & Enjoy!
             </p>
             <div className="flex gap-4">
               <a href="https://www.facebook.com/people/3-Patti-Loot/61564386613680/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gaming-accent hover:text-gaming-dark transition-all">

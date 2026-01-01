@@ -11,15 +11,15 @@ export default function Hero() {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto text-center">
         <div className="inline-block mb-4 px-4 py-2 bg-gaming-accent/20 border border-gaming-accent/40 rounded-full">
-          <span className="text-gaming-accent font-bold">🎁 Get PKR 5 Welcome Bonus!</span>
+          <span className="text-gaming-accent font-bold">🎁 Get 100% Deposit Bonus!</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-gaming font-bold mb-6 animated-gradient">
-          3 Patti Loot Pakistan
+          3 Patti Loot Game Download
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-          Play exciting card games and earn real money! Download Pakistan's most trusted 
-          gaming app with 20+ games including Teen Patti, Rummy, Ludo, and more.
+          New Earning App in Pakistan 2026 with attractive design, fun background music, and engaging look. 
+          Play Teen Patti, Dragon vs Tiger, Rummy, Slots, and more exciting games!
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
           <a href="https://3pattilootpkk1.com?from_gameid=5208127&channelCode=200000" className="btn-primary text-lg px-8 py-4">
@@ -54,20 +54,20 @@ export default function Hero() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           <div className="glass rounded-lg p-6">
-            <div className="text-3xl font-gaming font-bold text-gaming-accent mb-2">20+</div>
-            <div className="text-gray-400 text-sm">Card Games</div>
+            <div className="text-3xl font-gaming font-bold text-gaming-accent mb-2">25+</div>
+            <div className="text-gray-400 text-sm">Casino Games</div>
           </div>
           <div className="glass rounded-lg p-6">
-            <div className="text-3xl font-gaming font-bold text-gaming-accent mb-2">10K+</div>
-            <div className="text-gray-400 text-sm">Daily Players</div>
+            <div className="text-3xl font-gaming font-bold text-gaming-accent mb-2">600K+</div>
+            <div className="text-gray-400 text-sm">Downloads</div>
           </div>
           <div className="glass rounded-lg p-6">
             <div className="text-3xl font-gaming font-bold text-gaming-accent mb-2">24/7</div>
             <div className="text-gray-400 text-sm">Available</div>
           </div>
           <div className="glass rounded-lg p-6">
-            <div className="text-3xl font-gaming font-bold text-gaming-accent mb-2">PKR 5</div>
-            <div className="text-gray-400 text-sm">Welcome Bonus</div>
+            <div className="text-3xl font-gaming font-bold text-gaming-accent mb-2">100%</div>
+            <div className="text-gray-400 text-sm">Deposit Bonus</div>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ export async function GET() {
         {
           url: `${SITE_URL}/3%20Patti%20Loot.webp`,
           title: '3 Patti Loot Logo - Pakistan Online Gaming App',
-          caption: '3 Patti Loot official logo - Play Teen Patti, Rummy, and 28+ card games',
+          caption: '3 Patti Loot official logo - Play Teen Patti, Dragon vs Tiger, Rummy, Slots and 25+ games',
         },
         {
           url: `${SITE_URL}/og-image.jpg`,
@@ -20,7 +20,7 @@ export async function GET() {
         {
           url: `${SITE_URL}/refer-and-earn.webp`,
           title: '3 Patti Loot Refer and Earn Program',
-          caption: 'Earn 3% commission on every referral - PKR bonus rewards',
+          caption: 'Earn commission on every referral - PKR bonus rewards',
         },
       ],
     },
@@ -39,8 +39,8 @@ export async function GET() {
       images: [
         {
           url: `${SITE_URL}/3%20Patti%20Loot.webp`,
-          title: 'Best 3 Patti Games Comparison',
-          caption: 'Compare 3 Patti Loot with Blue, Lucky, Sky, and Vegas',
+          title: 'Best 3Patti Games Comparison',
+          caption: 'Compare 3 Patti Loot with other gaming apps',
         },
       ],
     },

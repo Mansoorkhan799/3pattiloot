@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://3pattilootapk.com.pk';
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || '3 Patti Loot';
 const SITE_DESCRIPTION = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 
-  "Download 3 Patti Loot APK - Pakistan's #1 Online Card Gaming App. Play Teen Patti, Rummy, Andar Bahar, and 28+ games. Earn real money with instant withdrawals via JazzCash & EasyPaisa. Get PKR 5 welcome bonus!";
+  "Download 3 Patti Loot APK - New Earning App in Pakistan 2026. Play Teen Patti, Dragon vs Tiger, Rummy, Slots and 25+ games with attractive design. Earn real money with instant withdrawals via JazzCash & EasyPaisa. Get 100% deposit bonus!";
 
 interface SEOProps {
   title?: string;
@@ -48,15 +48,15 @@ export function generateSEO({
       '3 patti loot apk',
       'teen patti',
       'rummy',
-      'andar bahar',
+      'dragon vs tiger',
       'online earning app pakistan',
       'card games pakistan',
       '3 patti game',
       'jazz cash games',
       'easypaisa games',
       'real money earning',
-      'dragon tiger',
-      'ludo online',
+      'slots games',
+      'andar bahar',
       'pakistani gaming app',
       'teen patti loot',
     ],
@@ -320,7 +320,7 @@ export function generateMobileAppSchema() {
     '@type': 'MobileApplication',
     name: '3 Patti Loot',
     alternateName: 'Teen Patti Loot',
-    description: 'Download 3 Patti Loot APK - Play Teen Patti, Rummy, Andar Bahar and 28+ card games. Earn real money with instant withdrawals.',
+    description: 'Download 3 Patti Loot APK - New Earning App in Pakistan 2026. Play Teen Patti, Dragon vs Tiger, Rummy, Slots and 25+ casino games. Earn real money with instant withdrawals.',
     operatingSystem: 'Android',
     applicationCategory: 'GameApplication',
     offers: {
@@ -331,17 +331,17 @@ export function generateMobileAppSchema() {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
-      ratingCount: '5000',
+      ratingCount: '300000',
       bestRating: '5',
       worstRating: '1',
     },
     author: {
       '@type': 'Organization',
-      name: '3 Patti Loot',
+      name: '3 patti loot dev',
     },
     downloadUrl: 'https://3pattilootpkk1.com?from_gameid=5208127&channelCode=200000',
-    softwareVersion: '1.223',
-    fileSize: '55MB',
+    softwareVersion: 'V1.199(1)',
+    fileSize: '49MB',
     installUrl: 'https://3pattilootpkk1.com?from_gameid=5208127&channelCode=200000',
     screenshot: `${SITE_URL}/3 Patti Loot.webp`,
     image: `${SITE_URL}/3 Patti Loot.webp`,

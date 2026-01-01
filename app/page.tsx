@@ -3,8 +3,8 @@ import Link from "next/link";
 import { generateSEO } from "@/lib/seo";
 
 export const metadata = generateSEO({
-  title: "3 Patti Loot v1.225 | Free Download for Android",
-  description: "Download 3 Patti Loot APK v1.225 official for Android. Play Teen Patti, Rummy, Andar Bahar & 28+ games. Get PKR 5 welcome bonus. Instant withdrawals via JazzCash & EasyPaisa.",
+  title: "3 Patti Loot Game Download | New Earning App in Pakistan 2026",
+  description: "Download 3 Patti Loot APK v1.199(1) official for Android. Play Teen Patti, Rummy, Dragon vs Tiger & more games. Get 100% deposit bonus. Instant withdrawals via JazzCash & EasyPaisa.",
   keywords: [
     "3 patti loot apk",
     "3 patti loot pakistan",
@@ -21,12 +21,19 @@ export const metadata = generateSEO({
 
 export default function HomePage() {
 
-  const allGames = [
-    "Teen Patti", "Double", "Rummy", "Fruit Line", "Roulette", "Poker",
-    "Mines", "Fishing Rush", "7 Up Down", "Dragon vs Tiger", "Car Roulette", "Sports",
-    "Zoo Roulette", "Rattling Gems", "Best of Five", "Sweet Bonanza", "10 Cards", "Blackjack",
-    "TeenPatti 20-20", "Crash", "Spin of Fortune", "777 Bingo", "God of Fortune", "Ludo",
-    "Andar Bahar", "Domino", "Variation", "Baccarat"
+  const multiplayerGames = [
+    "Tiger Dragon (Hot)", "7 UP Down (Hot)", "Zoo Roulette (Hot)", "Crash",
+    "Car Roulette", "Andar Bahar", "Teenpatti 20-20", "Best of Five"
+  ];
+
+  const skillGames = [
+    "Domino (Hot)", "Rummy (Hot)", "Teen Patti", "Fishing Rush",
+    "10 Cards", "Poker", "Ludo", "Black Jack"
+  ];
+
+  const slotGames = [
+    "Mines (Hot)", "Fruit Line", "777 Bingo", "Rattling GEMS",
+    "Video Poker 1", "Video Poker 2", "Wild Energy", "WoW Slot", "God of Fortune"
   ];
 
   return (
@@ -34,31 +41,25 @@ export default function HomePage() {
       {/* Hero Section */}
       <Hero />
 
-      {/* What is 3 Patti Loot APK */}
+      {/* What is 3 Patti Loot Game */}
       <section className="py-16 px-4 bg-gaming-dark">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-gaming font-bold mb-6 gradient-text">
-              What is 3 Patti Loot APK?
+              What is 3 Patti Loot Game?
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto mb-12">
             <div className="glass rounded-lg p-8 mb-8">
               <p className="text-lg text-gray-300 mb-4">
-                3 Patti Loot APK is an amazing online earning app where you can play card games and earn real money. 
-                This app is packed with more than 20 card games like Ludo, Mines, Dragon Tiger, Rummy, Andar Bahar, 
-                and more. Moreover, you can bet on live sports events such as cricket and earn money.
+                3 Patti Loot Game is an online card game that is based on the classic Teen Patti card game. You can play different games to earn money. It is a safe and easy platform where you can play card games and make good money in a short time. It has become a great opportunity, especially for those people who want to earn money by playing different and interesting games.
               </p>
               <p className="text-lg text-gray-300 mb-4">
-                You can also earn money through referrals and daily logins. This app gives you every opportunity to 
-                earn money. So, what are you waiting for, avail yourself of this opportunity and start earning money 
-                by playing games.
+                This game became very popular, and people prefer it because of its beautiful design, simple settings, classic themes, and easy options. You can withdraw your winnings or deposit money anytime by using the local and easy payment methods. When you complete your deposit then you can receive a deposit bonus as well.
               </p>
               <p className="text-lg text-gray-300">
-                This app offers a variety of channels to deposit and withdraw your money. For instance, you can use 
-                your bank account, EasyPaisa, and JazzCash. Moreover, the deposits and withdrawals are done quickly 
-                and easily. Further, this app supports Android devices only and is not available for iOS.
+                With its attractive visuals, user-friendly design, and exciting offers, this app is one of the most enjoyable and engaging casino-style card games. This app is divided into various sections, including card games, slots, poker, and many others, making it easy to find games that you want to play.
               </p>
             </div>
           </div>
@@ -68,9 +69,9 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-gaming-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-3xl">🎮</span>
               </div>
-              <h3 className="text-xl font-gaming font-bold mb-3">20+ Card Games</h3>
+              <h3 className="text-xl font-gaming font-bold mb-3">Multiple Game Categories</h3>
               <p className="text-gray-400">
-                Play Teen Patti, Rummy, Ludo, Dragon Tiger, and many more exciting games all in one app.
+                Enjoy multiplayer games, skill-based games, and exciting slots with beautiful design and smooth gameplay.
               </p>
             </div>
 
@@ -80,7 +81,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-gaming font-bold mb-3">Real Money Earning</h3>
               <p className="text-gray-400">
-                Win real cash prizes and withdraw instantly to your EasyPaisa or JazzCash account 24/7.
+                Earn real cash rewards and bonuses. Withdraw winnings instantly through EasyPaisa and JazzCash.
               </p>
             </div>
 
@@ -88,128 +89,159 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-gaming-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-3xl">📱</span>
               </div>
-              <h3 className="text-xl font-gaming font-bold mb-3">Works on 2G Network</h3>
+              <h3 className="text-xl font-gaming font-bold mb-3">Smooth Performance</h3>
               <p className="text-gray-400">
-                3Patti app works smoothly even on a slow internet connection. It works perfectly even on 2G.
+                Fast performance on all Android devices, even on older models with low storage and slow internet.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features of 3 Patti Loot */}
+      {/* Top Features of 3 Patti Loot */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
-            Features of 3 Patti Loot
+            Top Features of 3 Patti Loot
           </h2>
           <p className="text-xl text-gray-300">
-            The Teen Patti Loot is packed with amazing features, and you can benefit from them
+            3 Patti Loot offers amazing features that make it perfect for both beginners and experienced players
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Vast Game Collection</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Real Money Earning</h3>
             <p className="text-gray-300">
-              3Patti Loot Pakistan offers a vast collection of games. So, you have more options to play. 
-              This app includes more than 20 games which include Ludo, Mines, Dragon Tiger, Rummy, 
-              Andar Bahar, Teen Patti, and many more. So, play your favorite game and start earning money.
+              3 Patti Loot allows you to earn real cash rewards just by playing the game that you want to play or like. Whether you enjoy teen patti, poker, or rummy, every match provides you with a chance to win money. This app directly transfers your earnings through the local and easy payment methods safely.
             </p>
           </div>
 
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Refer and Earn</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Easy Withdraw & Deposit</h3>
             <p className="text-gray-300">
-              It provides every possible opportunity to earn money. With this app, you can invite your 
-              friends and earn a commission. You get a 3% commission for each game they win or lose. 
-              Share your referral link and build your affiliate network.
+              With 3 Patti Loot, you can manage your money in a super simple or fast way. With just a few steps, you can withdraw or deposit money anytime using local payment methods, such as JazzCash or EasyPaisa. It also ensures you have secure and quick transactions without any delays.
             </p>
           </div>
 
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Deposits and Withdrawals 24/7</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Attractive Interface</h3>
             <p className="text-gray-300">
-              You can deposit and withdraw your money anytime you wish. Moreover, Teen Patti Loot offers 
-              many deposit and withdrawal channels including EasyPaisa, JazzCash, and bank accounts. 
-              All transactions are processed instantly.
+              This app is designed with a bright, colorful, and modern interface that can attract its users. The background music, smooth animations, and clear layout create an amazing or pleasant experience. Each section of this app is designed very well, so that you can find your favourite game easily.
             </p>
           </div>
 
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Sports Betting Bonus</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Popular Games</h3>
             <p className="text-gray-300">
-              You can earn money by betting on live sports events like cricket. You can invest your money 
-              in live events and earn good money. Get sports commission when your referrals bet on sports.
+              3 Patti Loot provides you with a wide variety of famous games in one app so that you can enjoy dragon vs tiger, poker, slots, and many other exciting options. Each game of this app has simple rules that make it perfect for both beginners and experienced players.
             </p>
           </div>
 
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Spinning Wheel</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Daily Bonus</h3>
             <p className="text-gray-300">
-              Deposit money to your accounts and get equal points for spinning. Then spin the wheel and 
-              get your rewards for free. There are 3 types of wheels: silver, gold, and diamond. Try your luck daily!
+              This app rewards you every day with free login bonuses or chips. You can earn extra coins just by opening the app regularly. It also provides special rewards on weekly or festival occasions. These bonuses help you to keep playing even if you do not want to deposit money.
             </p>
           </div>
 
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Multiple Languages</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Referral Earning</h3>
             <p className="text-gray-300">
-              People from different backgrounds use this application. To make this application accessible 
-              to everyone, it is available in different languages. You can easily switch between English and Urdu.
+              3 Patti Loot offers you a referral program where you can earn money without playing games. You just need to share your referral link with your friends and invite them to join. When they start playing games, you receive a commission automatically. It is a simple way to make money without investment.
             </p>
           </div>
 
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Login Incentive</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Fast Performance</h3>
             <p className="text-gray-300">
-              If you have run out of cash, there is no need to panic because you can claim the daily login 
-              reward. Open the application each day and claim the free login gift to keep playing.
+              This app runs smoothly on almost every Android device, even on older models. It does not hang, crash, or use too much storage space. The lightweight design of this app helps it to run faster and load to provide a smooth gameplay. Through this feature, you can switch between games quickly without having any lag.
             </p>
           </div>
 
           <div className="glass rounded-lg p-6">
-            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Customer Support 24/7</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Safe & Secure Platform</h3>
             <p className="text-gray-300">
-              To make the application effective there are customer support members available. This team is 
-              specifically dedicated to sorting out the queries and problems of users anytime, day or night.
+              In 3 Patti Loot, your privacy and money are completely safe because it uses a secure payment method and data protection system that keeps everything private. Through this feature, you do not have to worry about losing money or personal information. This app also provides you with a fair gaming environment.
+            </p>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Free to Play</h3>
+            <p className="text-gray-300">
+              3 Patti Loot is free to download and does not ask for any registration fees. Through this feature, you can start playing games quickly with free chips that are given by the app. This feature is a perfect choice, especially for beginners and those who want to learn before investing real money.
+            </p>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">24/7 Support</h3>
+            <p className="text-gray-300">
+              This app also provides you with fast customer support, which helps you anytime. Whether you face a deposit issue or a technical error, this support team responds quickly. You can contact the team directly through the app for quick help. The services of this team are very friendly, professional, and reliable.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Games in 3 Patti Loot */}
+      {/* Best Games to Play on 3 Patti Loot */}
       <section id="games" className="py-16 px-4 bg-gaming-dark">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
-              Games in 3 Patti Loot
+              Best Games to Play on 3 Patti Loot
             </h2>
             <p className="text-xl text-gray-300">
-              Everyone has a different taste of games and skills accordingly. Users will get to play 
-              multiple games in this single application
+              Choose from multiplayer games, skill-based games, and exciting slots
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {allGames.map((game, index) => (
-              <div key={index} className="glass rounded-lg p-4 text-center hover:bg-gaming-accent/10 transition-all cursor-pointer">
-                <span className="text-2xl mb-2 block">🎴</span>
-                <span className="font-gaming font-bold text-sm">{game}</span>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent text-center">Multiplayer Games</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {multiplayerGames.map((game, index) => (
+                  <div key={index} className="glass rounded-lg p-4 text-center hover:bg-gaming-accent/10 transition-all cursor-pointer">
+                    <span className="text-2xl mb-2 block">🎴</span>
+                    <span className="font-gaming font-bold text-sm">{game}</span>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent text-center">Skill Base Games</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {skillGames.map((game, index) => (
+                  <div key={index} className="glass rounded-lg p-4 text-center hover:bg-gaming-accent/10 transition-all cursor-pointer">
+                    <span className="text-2xl mb-2 block">🎯</span>
+                    <span className="font-gaming font-bold text-sm">{game}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent text-center">Slots</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                {slotGames.map((game, index) => (
+                  <div key={index} className="glass rounded-lg p-4 text-center hover:bg-gaming-accent/10 transition-all cursor-pointer">
+                    <span className="text-2xl mb-2 block">🎰</span>
+                    <span className="font-gaming font-bold text-sm">{game}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* How to Download and Install */}
+      {/* How Can We Start with 3 Patti Loot */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
-            How to Download and Install 3 Patti Loot App?
+            How Can We Start with 3 Patti Loot?
           </h2>
           <p className="text-xl text-gray-300">
-            This app is easy to install and use on any Android device
+            Follow these simple steps to download and install 3 Patti Loot APK on your Android device
           </p>
           <p className="text-gray-400 mt-3">
             📖 Need help? Read our <Link href="/blog/signup-login" className="text-gaming-accent hover:text-gaming-purple underline">complete signup and login guide</Link>
@@ -221,10 +253,10 @@ export default function HomePage() {
             <img src="/3patti-loot.webp" alt="3 Patti Loot App Screenshot" className="rounded-lg shadow-2xl w-full" />
           </div>
           <div className="glass rounded-lg p-8">
-            <h3 className="text-2xl font-gaming font-bold mb-4 gradient-text">Download Now & Get PKR 5 Free!</h3>
+            <h3 className="text-2xl font-gaming font-bold mb-4 gradient-text">Download Now & Get 100% Bonus!</h3>
             <p className="text-gray-300 mb-6">
               Join thousands of players earning real money daily. Download the app, create your account, 
-              and start playing your favorite card games instantly!
+              and start playing your favorite card games instantly with 100% deposit bonus!
             </p>
             <a href="https://3pattilootpkk1.com?from_gameid=5208127&channelCode=200000" className="btn-primary w-full text-center block">
               📱 Download APK Now
@@ -240,8 +272,8 @@ export default function HomePage() {
                   <span className="font-bold text-gaming-accent">1</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-2">Download APK File</h3>
-                  <p className="text-gray-400">Click on the download button provided to download the app to your device.</p>
+                  <h3 className="font-bold text-lg mb-2">Open Official Website</h3>
+                  <p className="text-gray-400">Firstly, open the official website of 3 Patti Loot and download the APK file to your device.</p>
                 </div>
               </div>
 
@@ -250,8 +282,8 @@ export default function HomePage() {
                   <span className="font-bold text-gaming-accent">2</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-2">Enable Unknown Sources</h3>
-                  <p className="text-gray-400">During installation, allow installation from unknown sources in your device settings.</p>
+                  <h3 className="font-bold text-lg mb-2">Install the APK</h3>
+                  <p className="text-gray-400">Once downloaded then click on the downloaded APK file to start the installation by allowing the Unknown Sources.</p>
                 </div>
               </div>
 
@@ -260,8 +292,8 @@ export default function HomePage() {
                   <span className="font-bold text-gaming-accent">3</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-2">Install the App</h3>
-                  <p className="text-gray-400">Tap on the downloaded APK file and it will start installing on your device.</p>
+                  <h3 className="font-bold text-lg mb-2">Open the App</h3>
+                  <p className="text-gray-400">Once installation is complete, click on it to open the 3 Patti Loot app.</p>
                 </div>
               </div>
 
@@ -270,8 +302,8 @@ export default function HomePage() {
                   <span className="font-bold text-gaming-accent">4</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-2">Launch & Register</h3>
-                  <p className="text-gray-400">Once installation is complete, launch the app, tap on guest button, and your device will be registered.</p>
+                  <h3 className="font-bold text-lg mb-2">Login or Play as Guest</h3>
+                  <p className="text-gray-400">When the app opens then log in with your mobile number or just play as a guest.</p>
                 </div>
               </div>
 
@@ -280,8 +312,18 @@ export default function HomePage() {
                   <span className="font-bold text-gaming-accent">5</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-2">Deposit & Start Playing</h3>
-                  <p className="text-gray-400">After that, you will be able to deposit cash and start playing games to earn money.</p>
+                  <h3 className="font-bold text-lg mb-2">Get Welcome Bonus</h3>
+                  <p className="text-gray-400">When you log in, you will get free chips or welcome bonuses to start playing the game.</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="w-10 h-10 bg-gaming-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="font-bold text-gaming-accent">6</span>
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg mb-2">Start Playing</h3>
+                  <p className="text-gray-400">Choose a table or game that you want to play, and start enjoying the game.</p>
                 </div>
               </div>
             </div>
@@ -292,94 +334,117 @@ export default function HomePage() {
               📱 Download 3 Patti Loot APK Now
             </a>
             <p className="text-sm text-gray-400 mt-4">
-              Get PKR 5 Bonus Now | Android 5.0+ Required | 55MB Size
+              Get 100% Deposit Bonus | Android 5.0+ Required | 49MB Size
             </p>
           </div>
         </div>
       </section>
 
-      {/* How to Create Account */}
+      {/* How to Register & Login on 3 Patti Loot */}
       <section className="py-16 px-4 bg-gaming-dark">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
-              How to Create Account in 3 Patti Loot?
+              How to Register & Login on 3 Patti Loot?
             </h2>
             <p className="text-xl text-gray-300">
-              It is simple to create your account in 3 Patti Loot
+              Simple registration and login process to start playing instantly
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto grid md:grid-cols-2 gap-6">
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-gaming font-bold mb-4 text-gaming-accent">New Account</h3>
+              <h3 className="text-xl font-gaming font-bold mb-4 text-gaming-accent">Register Method</h3>
               <ol className="space-y-3 list-decimal list-inside text-gray-300">
-                <li>Launch the app and click on "Play as a Guest" button</li>
-                <li>Your device will get registered with the game</li>
-                <li>Tap on your profile section in the top left corner</li>
-                <li>Click on the option to bind your email address</li>
-                <li>Enter your email address and get OTP</li>
-                <li>Verify the OTP code sent to your email</li>
-                <li>Set a strong password and confirm</li>
-                <li>Your account is ready to use!</li>
+                <li>Firstly, open the 3 Patti Loot app on your device</li>
+                <li>On the homescreen, click on the Register or Sign Up option</li>
+                <li>Now, enter your valid mobile number or email address</li>
+                <li>Set a strong password that can never be accessed easily</li>
+                <li>Enter the OTP that you can receive through phone or email for verification</li>
+                <li>Once verification is complete then your account will be created successfully</li>
               </ol>
             </div>
 
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-gaming font-bold mb-4 text-gaming-accent">Existing Account</h3>
+              <h3 className="text-xl font-gaming font-bold mb-4 text-gaming-accent">Login Method</h3>
               <p className="text-gray-300 mb-4">
-                If you already have an account, you can use the "Login" option at the beginning to recover 
-                your account.
+                After registration, the next step is to log account. Follow these steps:
               </p>
-              <p className="text-gray-300 mb-4">
-                To use this feature, you need to bind your email to the game ID. You can bind your email 
-                by tapping on the profile section.
-              </p>
-              <p className="text-gray-300">
-                <strong>Important:</strong> Always bind your email to prevent losing access to your account 
-                if you lose your phone or need to change devices.
-              </p>
+              <ol className="space-y-3 list-decimal list-inside text-gray-300">
+                <li>Open the 3 Patti Loot app on your device</li>
+                <li>Click on the Login button on the homescreen</li>
+                <li>Enter your registered mobile number, email, or password</li>
+                <li>Make sure that your entered details are correct</li>
+                <li>Once confirmed, tap on the Sign in or Login option</li>
+                <li>If you forget your password, then use Forgot Password to reset it</li>
+                <li>Once logging is complete then you can start playing games</li>
+              </ol>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Deposit & Withdraw */}
+      {/* Ways to Deposit & Withdraw Money */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
+            Ways to Deposit & Withdraw Money in 3 Patti Loot
+          </h2>
+          <p className="text-xl text-gray-300">
+            Use JazzCash or EasyPaisa for quick and secure transactions
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="glass rounded-lg p-6 text-center">
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Jazzcash</h3>
+            <p className="text-gray-300">
+              Jazzcash is one of the most trusted and secure mobile banking services that allows you to deposit money quickly into your gaming account and start playing games quickly. It's a fast and safe transaction system that allows you to withdraw your winnings directly into your account wallet. The transactions are completed within seconds.
+            </p>
+          </div>
+
+          <div className="glass rounded-lg p-6 text-center">
+            <h3 className="text-2xl font-gaming font-bold mb-4 text-gaming-accent">Easypaisa</h3>
+            <p className="text-gray-300">
+              Easypaisa is another secure and most commonly used payment method that is similar to the JazzCash method. It allows you to deposit or withdraw money without any difficulty. Through this method, you can add funds to your game account and transfer winnings to your Easypaisa wallet in just a few steps.
+            </p>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-3xl font-gaming font-bold mb-6 gradient-text">
-              How to Deposit Money?
+              How to Deposit Money in the 3 Patti Loot App?
             </h2>
             <div className="glass rounded-lg p-6">
               <ol className="space-y-4 text-gray-300">
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">1.</span>
-                  <span>Click on the "Buy/Shop" button in the app</span>
+                  <span>First, open the 3 Patti Loot app on your device and log in</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">2.</span>
-                  <span>Select the type of account: EasyPaisa or JazzCash</span>
+                  <span>Now, click on the Wallet option that is available on the homescreen</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">3.</span>
-                  <span>Choose the number of chips you want to purchase (Minimum PKR 50)</span>
+                  <span>In this wallet section, click on the Deposit option</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">4.</span>
-                  <span>Click on add chips button and it will open a payment page</span>
+                  <span>Choose a payment method that you want to use</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">5.</span>
-                  <span>Provide your account number and click on the pay button</span>
+                  <span>Enter the amount that you want to deposit</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">6.</span>
-                  <span>Complete the transaction with your account password</span>
+                  <span>Click on the confirm option and wait to complete it</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">7.</span>
-                  <span>Money will automatically transfer to your game profile</span>
+                  <span>Once complete, the balance will show in your game wallet</span>
                 </li>
               </ol>
             </div>
@@ -387,37 +452,45 @@ export default function HomePage() {
 
           <div>
             <h2 className="text-3xl font-gaming font-bold mb-6 gradient-text">
-              How to Withdraw Money?
+              How to Withdraw Money in 3 Patti Loot?
             </h2>
             <div className="glass rounded-lg p-6">
               <ol className="space-y-4 text-gray-300">
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">1.</span>
-                  <span>Click on the "Withdraw" button at the bottom</span>
+                  <span>Open the 3 Patti Loot app and log in to your account</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">2.</span>
-                  <span>You will see your withdrawable amount and total balance</span>
+                  <span>Click on the Wallet option that is available on the main screen</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">3.</span>
-                  <span>Select account type: EasyPaisa or JazzCash</span>
+                  <span>In the wallet section, click on the Withdrawal option</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">4.</span>
-                  <span>If not bound, click "+Wallet" and add your account details</span>
+                  <span>Choose your payment method, like JazzCash or EasyPaisa</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">5.</span>
-                  <span>Enter the amount you want to withdraw</span>
+                  <span>Now enter the amount that you want to withdraw</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">6.</span>
-                  <span>Click on proceed button to complete withdrawal</span>
+                  <span>Enter some required details, like the account number</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-gaming-accent font-bold">7.</span>
-                  <span>Check transaction status from the records section</span>
+                  <span>Double-check all entered details and click on Confirm</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gaming-accent font-bold">8.</span>
+                  <span>Wait a few seconds to complete the withdrawal process</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gaming-accent font-bold">9.</span>
+                  <span>Once complete, that money will be shown in your selected payment method</span>
                 </li>
               </ol>
             </div>
@@ -425,76 +498,186 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Free Bonuses */}
+      {/* Benefits for New Players by Joining 3 Patti Loot */}
       <section className="py-16 px-4 bg-gaming-dark">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
-              Free Bonuses in 3 Patti Loot
+              Benefits for New Players by Joining 3 Patti Loot
             </h2>
             <p className="text-xl text-gray-300">
-              Here is the list of different types of rewards this app offers to gamers
+              Get amazing bonuses and rewards when you join 3 Patti Loot
             </p>
           </div>
 
           <div className="mb-12">
-            <img src="/refer-and-earn.webp" alt="Refer and Earn 3% Commission" className="rounded-lg shadow-2xl mx-auto w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl" />
+            <img src="/refer-and-earn.webp" alt="Refer and Earn Commission" className="rounded-lg shadow-2xl mx-auto w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl" />
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="glass rounded-lg p-6 text-center">
-              <div className="text-4xl mb-4">🎁</div>
-              <h3 className="text-xl font-gaming font-bold mb-3">Signup Bonus</h3>
-              <p className="text-gray-400 mb-2">One-time welcome reward for new users</p>
-              <p className="text-2xl font-bold text-gaming-accent">PKR 5</p>
+          <div className="space-y-8">
+            <div className="glass rounded-lg p-8">
+              <h3 className="text-2xl font-gaming font-bold mb-6 text-gaming-accent text-center">New Player Welcome Bonus</h3>
+              <p className="text-gray-300 mb-6 text-center">
+                3Patti offers 100% recharge bonus for all new fresh users on their first deposit in this game
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-center">
+                  <thead>
+                    <tr className="border-b border-gaming-accent/30">
+                      <th className="py-3 px-4 text-gaming-accent">Deposit Amount (PKR)</th>
+                      <th className="py-3 px-4 text-gaming-accent">Bonus Amount (PKR)</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-300">
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">100</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">100</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">1,000</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">1,000</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">5,000</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">5,000</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">10,000</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">10,000</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">20,000</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">20,000</td>
+                    </tr>
+                    <tr>
+                      <td className="py-3 px-4">100,000</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">100,000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
 
-            <div className="glass rounded-lg p-6 text-center">
-              <div className="text-4xl mb-4">📅</div>
-              <h3 className="text-xl font-gaming font-bold mb-3">Daily Login Reward</h3>
-              <p className="text-gray-400 mb-2">Available daily for all users</p>
-              <p className="text-2xl font-bold text-gaming-accent">Free Chips</p>
+            <div className="glass rounded-lg p-8">
+              <h3 className="text-2xl font-gaming font-bold mb-6 text-gaming-accent text-center">Recharge Rebtage</h3>
+              <p className="text-gray-300 mb-6 text-center">
+                3 Patti Loot game is also offering huge recharge rebtage bonuses for every player when they deposit amount
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-center">
+                  <thead>
+                    <tr className="border-b border-gaming-accent/30">
+                      <th className="py-3 px-4 text-gaming-accent">Rebtage</th>
+                      <th className="py-3 px-4 text-gaming-accent">Recharge Required</th>
+                      <th className="py-3 px-4 text-gaming-accent">Required Wager</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-300">
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4 text-gaming-accent font-bold">5%</td>
+                      <td className="py-3 px-4">3,000 PKR</td>
+                      <td className="py-3 px-4">2x</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4 text-gaming-accent font-bold">10%</td>
+                      <td className="py-3 px-4">5,000 PKR</td>
+                      <td className="py-3 px-4">3x</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4 text-gaming-accent font-bold">15%</td>
+                      <td className="py-3 px-4">8,000 PKR</td>
+                      <td className="py-3 px-4">4x</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4 text-gaming-accent font-bold">20%</td>
+                      <td className="py-3 px-4">10,000 PKR</td>
+                      <td className="py-3 px-4">5x</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4 text-gaming-accent font-bold">25%</td>
+                      <td className="py-3 px-4">20,000 PKR</td>
+                      <td className="py-3 px-4">6x</td>
+                    </tr>
+                    <tr>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">30%</td>
+                      <td className="py-3 px-4">50,000 PKR</td>
+                      <td className="py-3 px-4">7x</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
 
-            <div className="glass rounded-lg p-6 text-center">
-              <div className="text-4xl mb-4">👥</div>
-              <h3 className="text-xl font-gaming font-bold mb-3">Referral Commission</h3>
-              <p className="text-gray-400 mb-2">Earn from friends' gameplay</p>
-              <p className="text-2xl font-bold text-gaming-accent">3% Forever</p>
-            </div>
-
-            <div className="glass rounded-lg p-6 text-center">
-              <div className="text-4xl mb-4">🎡</div>
-              <h3 className="text-xl font-gaming font-bold mb-3">Spinning Wheel</h3>
-              <p className="text-gray-400 mb-2">Daily and weekly chances</p>
-              <p className="text-2xl font-bold text-gaming-accent">Win Jackpot</p>
-            </div>
-
-            <div className="glass rounded-lg p-6 text-center">
-              <div className="text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-gaming font-bold mb-3">Progress Reward</h3>
-              <p className="text-gray-400 mb-2">Weekly income based reward</p>
-              <p className="text-2xl font-bold text-gaming-accent">Extra Cash</p>
-            </div>
-
-            <div className="glass rounded-lg p-6 text-center">
-              <div className="text-4xl mb-4">🏏</div>
-              <h3 className="text-xl font-gaming font-bold mb-3">Sports Commission</h3>
-              <p className="text-gray-400 mb-2">From referrals' sports bets</p>
-              <p className="text-2xl font-bold text-gaming-accent">Bonus%</p>
+            <div className="glass rounded-lg p-8">
+              <h3 className="text-2xl font-gaming font-bold mb-6 text-gaming-accent text-center">Big Rebtage on Recharge</h3>
+              <p className="text-gray-300 mb-6 text-center">
+                This type of reward is only available for deposit of minimum 3000PKR or more than it. It also depends upon VIP Level with increasing rebtage bonus. It can be claimed every day
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-center">
+                  <thead>
+                    <tr className="border-b border-gaming-accent/30">
+                      <th className="py-3 px-4 text-gaming-accent">VIP Level</th>
+                      <th className="py-3 px-4 text-gaming-accent">Rebate</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-300">
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V1-V2</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">1% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V3-V4</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">2% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V5-V6</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">3% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V7-V8</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">4% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V9-V10</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">5% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V11-V12</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">6% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V13-V14</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">7% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V15-V16</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">8% rebate</td>
+                    </tr>
+                    <tr className="border-b border-gray-700">
+                      <td className="py-3 px-4">V17-V18</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">9% rebate</td>
+                    </tr>
+                    <tr>
+                      <td className="py-3 px-4">V19-V20</td>
+                      <td className="py-3 px-4 text-gaming-accent font-bold">10% rebate</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Tips and Tricks */}
+      {/* Tips & Tricks to Earn Maximum on 3 Patti Loot Game */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-gaming font-bold mb-4 gradient-text">
-              Tips and Tricks to Win
+              Tips & Tricks to Earn Maximum on 3 Patti Loot Game
             </h2>
             <p className="text-xl text-gray-300">
-              Follow these tips to maximize your earnings and enjoyment
+              Follow these expert tips to maximize your earnings on 3 Patti Loot
             </p>
             <p className="text-gray-400 mt-3">
               🎯 Want expert strategies? Read our <Link href="/blog/tips-tricks" className="text-gaming-accent hover:text-gaming-purple underline">advanced tips and tricks guide</Link>
@@ -506,28 +689,8 @@ export default function HomePage() {
             <div className="flex items-start gap-4">
               <span className="text-3xl">💡</span>
               <div>
-                <h3 className="font-bold text-lg mb-2">Choose Games Wisely</h3>
-                <p className="text-gray-400 text-sm">Before trying any game, check the gaming list and choose games that match your preferences and skills.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="glass rounded-lg p-6">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">🎯</span>
-              <div>
-                <h3 className="font-bold text-lg mb-2">Master One Game First</h3>
-                <p className="text-gray-400 text-sm">Stick to one or two games until you master them. Learn about gameplay, rules, and game mechanics thoroughly.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="glass rounded-lg p-6">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">💰</span>
-              <div>
-                <h3 className="font-bold text-lg mb-2">Manage Your Bankroll</h3>
-                <p className="text-gray-400 text-sm">Start with investing a small amount. Never spend more than you have initially invested. Set limits and stick to them.</p>
+                <h3 className="font-bold text-lg mb-2">Start with Small Bets</h3>
+                <p className="text-gray-400 text-sm">Always start a game with a small investment because it will help you to understand the game rules and overcome the risk of losing money. When you become confident, then increase your bet.</p>
               </div>
             </div>
           </div>
@@ -536,8 +699,18 @@ export default function HomePage() {
             <div className="flex items-start gap-4">
               <span className="text-3xl">🎁</span>
               <div>
-                <h3 className="font-bold text-lg mb-2">Use Free Bonuses</h3>
-                <p className="text-gray-400 text-sm">Avail free chips from bonuses and rewards. Get your welcome bonus so you can play games for free initially.</p>
+                <h3 className="font-bold text-lg mb-2">Use Bonuses Wisely</h3>
+                <p className="text-gray-400 text-sm">3 Patti Loot offers you daily login bonuses, referral bonuses, or deposit rewards. It helps you to play more games without spending your one money or earning extra money.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🎯</span>
+              <div>
+                <h3 className="font-bold text-lg mb-2">Play Popular Games</h3>
+                <p className="text-gray-400 text-sm">Focus on high-earning games such as Dragon vs Tiger or Teen Patti Classic that provide you with higher winning chances, and also attract players with better opportunities to earn.</p>
               </div>
             </div>
           </div>
@@ -546,25 +719,75 @@ export default function HomePage() {
             <div className="flex items-start gap-4">
               <span className="text-3xl">👥</span>
               <div>
-                <h3 className="font-bold text-lg mb-2">Learn from Others</h3>
-                <p className="text-gray-400 text-sm">Connect with others in multiplayer mode and learn different game strategies from experienced players.</p>
+                <h3 className="font-bold text-lg mb-2">Invite Friends</h3>
+                <p className="text-gray-400 text-sm">Use the referral link system to invite friends every time your friends join, and then you can earn commission. The more friends you invite, the higher you can become.</p>
               </div>
             </div>
           </div>
 
           <div className="glass rounded-lg p-6">
             <div className="flex items-start gap-4">
-              <span className="text-3xl">🔄</span>
+              <span className="text-3xl">📅</span>
               <div>
-                <h3 className="font-bold text-lg mb-2">Practice Regularly</h3>
-                <p className="text-gray-400 text-sm">Practice the games regularly and be patient. Don't be overwhelmed if you don't win immediately.</p>
+                <h3 className="font-bold text-lg mb-2">Stay Active Daily</h3>
+                <p className="text-gray-400 text-sm">Regularly log in to the app to collect the daily rewards or spin bonuses. Always stay active because it will increase your bonus balance or improve your chances of winning big.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">💰</span>
+              <div>
+                <h3 className="font-bold text-lg mb-2">Withdraw on Time</h3>
+                <p className="text-gray-400 text-sm">When you earn a good amount then do not delay withdrawal. Always transfer your winnings as soon as possible through Jazcash or EasyPaisa to keep your money safe.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🎮</span>
+              <div>
+                <h3 className="font-bold text-lg mb-2">Learn from Practice Mode</h3>
+                <p className="text-gray-400 text-sm">Before playing games with real money, try the free or demo mode as practice. This helps you to understand the gameplay easily and develop the winning strategies without any risk.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🧘</span>
+              <div>
+                <h3 className="font-bold text-lg mb-2">Keep the Emotions in Control</h3>
+                <p className="text-gray-400 text-sm">Never play games with frustration or greed. Always stay calm or make smart decisions during the game because it helps you to avoid unnecessary losses.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">👨‍🏫</span>
+              <div>
+                <h3 className="font-bold text-lg mb-2">With Expert Players</h3>
+                <p className="text-gray-400 text-sm">Observe how other players make the moves. Through this, you can learn new techniques or strategies and timing from them to improve your skills.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="glass rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🛡️</span>
+              <div>
+                <h3 className="font-bold text-lg mb-2">Avoid Fake Apps</h3>
+                <p className="text-gray-400 text-sm">Always download the original 3 Patti Loot app through official or trusted sources because fake links or websites can steal your personal data or money.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FAQs */}
+      {/* Frequently Asked Questions */}
       <section className="py-16 px-4 bg-gaming-dark">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -575,33 +798,43 @@ export default function HomePage() {
 
           <div className="space-y-4">
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Is 3 Patti Loot real or fake?</h3>
-              <p className="text-gray-300">Yes, 3 Patti Loot APK is 100% legitimate and offers you the opportunity to earn real cash. Moreover, it provides a safe and secure environment for players. All transactions are encrypted and protected.</p>
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Can users play 3 Patti Loot without depositing money?</h3>
+              <p className="text-gray-300">Yes, you can play games in 3 Patti Loot by using the free bonuses like the Welcome Bonus and Referral Commission.</p>
             </div>
 
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Is there a 3 Patti Loot hack or Mod APK?</h3>
-              <p className="text-gray-300">No, there is no mod available and we strongly advise against using any. Our game is fully secure and hack-proof with RNG certification. We recommend you download only from reliable sources to ensure safety.</p>
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">How do users contact customer support?</h3>
+              <p className="text-gray-300">You can contact the 3 Patti Loot support team through live chat, WhatsApp, or other social media platforms.</p>
             </div>
 
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gaming-accent">What is the minimum deposit amount?</h3>
-              <p className="text-gray-300">You can deposit as low as PKR 50 to your game account. There are various chip packages available starting from PKR 50.</p>
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">What makes 3 Patti Loot different from other card games?</h3>
+              <p className="text-gray-300">Its simple design, fast transactions, and exciting games make this platform more enjoyable than other apps.</p>
             </div>
 
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gaming-accent">What is the maximum withdrawal amount?</h3>
-              <p className="text-gray-300">You can withdraw as much as you want because the application does not block your withdrawal requests. However, it depends on the limit of your EasyPaisa or JazzCash accounts.</p>
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Is 3 Patti Loot safe and legal to use?</h3>
+              <p className="text-gray-300">Yes, it is safe to use because this makes sure that your data privacy stays secure. However, the legality depends on your local laws, so always check your region's rules.</p>
             </div>
 
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Can I play on iOS devices?</h3>
-              <p className="text-gray-300">Currently, 3 Patti Loot is available for Android devices only. iOS version is not available at the moment.</p>
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Can users lose money while playing?</h3>
+              <p className="text-gray-300">Yes, this app is involved with real money, so you might lose some amount if you do not play the games carefully. So, always play wisely and set a limit while playing.</p>
             </div>
 
             <div className="glass rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gaming-accent">How long does withdrawal take?</h3>
-              <p className="text-gray-300">Withdrawals are processed instantly. Your money will be transferred to your EasyPaisa or JazzCash account within minutes after approval.</p>
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Is it possible to change the language of 3 Patti Loot?</h3>
+              <p className="text-gray-300">Yes, it is possible because this app supports multiple languages, so you can change the language from the settings menu easily.</p>
+            </div>
+
+            <div className="glass rounded-lg p-6">
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">How do referral rewards work?</h3>
+              <p className="text-gray-300">When you share your referral link with others, or when someone joins this app through your link, you can receive a commission.</p>
+            </div>
+
+            <div className="glass rounded-lg p-6">
+              <h3 className="text-xl font-bold mb-3 text-gaming-accent">Is 3 Patti Loot available on iPhone (iOS)?</h3>
+              <p className="text-gray-300">This app is mainly available for Android devices, but you can also check the official website or store for updates about iOS availability.</p>
             </div>
           </div>
         </div>
@@ -622,24 +855,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Conclusion */}
+      {/* Final Thoughts */}
       <section className="py-16 px-4 bg-gaming-dark">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-gaming font-bold mb-6 gradient-text">
-            Conclusion
+            Final Thoughts
           </h2>
           <div className="glass rounded-lg p-8 text-left">
             <p className="text-lg text-gray-300 mb-4">
-              In conclusion, <strong>3 Patti Loot Pakistan</strong> is the best online earning app where you can play games and earn money. This app provides you with a vast collection of games like Roulette, Andar Bahar, Teen Patti, Car Roulette, Ludo, and many others.
+              3 Patti Loot is one of the most popular online card games in the world. It not only provides you with fun or entertainment but also provides you with a great chance to earn money if you play games wisely. This app provides you with a simple and user-friendly interface that can make it easy, especially for beginners, to play games.
             </p>
             <p className="text-lg text-gray-300 mb-4">
-              Moreover, you can refer this app to others and can make good money through referrals with 3% commission. Further, it offers many deposit and withdrawal channels which are available 24/7 including EasyPaisa and JazzCash.
-            </p>
-            <p className="text-lg text-gray-300 mb-4">
-              The app is safe, secure, and features RNG-certified games ensuring 100% fair play. With HD graphics, smooth gameplay that works even on 2G networks, and multiple language support, 3 Patti Loot provides the best gaming experience.
+              The deposit or withdrawal system through JazzCash or EasyPaisa is very convenient, which makes this platform very easy to use. If you play responsibly, make plans with smart strategies, and focus on your skill rather than luck, 3 Patti Loot can become a more exciting or rewarding gaming experience.
             </p>
             <p className="text-lg text-gray-300">
-              So, this app is the best choice if you want to earn money by playing simple card games. Download now, get your PKR 5 welcome bonus, and start your journey to winning real money today!
+              So, download the game, and start playing your favorite games to earn real cash for free. With its attractive design, fun background music, and engaging look, 3 Patti Loot is the perfect app for both entertainment and earning.
             </p>
           </div>
         </div>
@@ -652,7 +882,7 @@ export default function HomePage() {
             Ready to Start Winning?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Download 3 Patti Loot APK now and get PKR 5 welcome bonus instantly!
+            Download 3 Patti Loot APK now and get 100% deposit bonus instantly!
           </p>
           <a href="https://3pattilootpkk1.com?from_gameid=5208127&channelCode=200000" className="btn-primary text-lg px-12 py-6 mb-4 inline-block">
             📱 Download 3 Patti Loot APK - FREE
@@ -668,7 +898,7 @@ export default function HomePage() {
               <svg className="w-5 h-5 text-gaming-accent" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
               </svg>
-              <span>55MB File Size</span>
+              <span>49MB File Size</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-gaming-accent" fill="currentColor" viewBox="0 0 20 20">
@@ -680,7 +910,7 @@ export default function HomePage() {
               <svg className="w-5 h-5 text-gaming-accent" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
               </svg>
-              <span>PKR 5 Bonus</span>
+              <span>100% Bonus</span>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 // Image metadata
-export const alt = '3 Patti Loot - Play & Earn Real Money';
+export const alt = '3 Patti Loot - New Earning App in Pakistan 2026';
 export const size = {
   width: 1200,
   height: 630,
@@ -44,7 +44,7 @@ export default async function Image() {
             color: '#00FF88',
           }}
         >
-          Play & Earn Real Money
+          New Earning App in Pakistan 2026
         </div>
         <div
           style={{
@@ -53,7 +53,7 @@ export default async function Image() {
             marginTop: 20,
           }}
         >
-          28+ Games • Instant Withdrawals • PKR 5 Bonus
+          25+ Games • Instant Withdrawals • 100% Bonus
         </div>
       </div>
     ),

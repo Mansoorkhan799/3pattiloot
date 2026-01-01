@@ -25,7 +25,7 @@ export async function GET() {
     },
     {
       slug: 'best-games',
-      title: 'Best 3 Patti Games to Play',
+      title: 'Best 3Patti Games to Play',
       date: '2026-12-15',
       priority: 0.8,
     },
@@ -64,4 +64,5 @@ ${posts
     },
   });
 }
+
 
