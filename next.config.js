@@ -2,15 +2,16 @@
 const nextConfig = {
   // ESLint configuration for builds
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
     ignoreDuringBuilds: false,
   },
   // TypeScript configuration for builds
   typescript: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has type errors.
     ignoreBuildErrors: false,
+  },
+  // Experimental features for better performance
+  experimental: {
+    optimizeCss: true,
+    optimizePackageImports: ['@/components', '@/lib'],
   },
   images: {
     remotePatterns: [
@@ -36,6 +37,10 @@ const nextConfig = {
   compress: true,
   // Power by header
   poweredByHeader: false,
+  // Compiler options for better performance
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
   // Generate sitemap during build
   async headers() {
     return [

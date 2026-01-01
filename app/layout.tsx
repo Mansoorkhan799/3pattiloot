@@ -32,6 +32,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${rajdhani.variable}`}>
       <head>
+        {/* DNS Prefetch and Preconnect for faster resource loading */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#00FF88" />

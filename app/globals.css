@@ -196,6 +196,27 @@
   }
 }
 
+/* Performance optimizations - Prevent forced reflows */
+.glass,
+.gaming-card,
+.btn-primary,
+.btn-secondary {
+  will-change: transform;
+  contain: layout style paint;
+}
+
+/* Optimize animations */
+.animated-gradient,
+.loading-dots span {
+  will-change: opacity, background-position;
+}
+
+/* Content visibility for better rendering */
+section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
 /* Performance optimizations */
 @media (prefers-reduced-motion: reduce) {
   * {
